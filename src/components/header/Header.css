@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    /* background-color: azure; */
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.836);
+}
+
+.header-left{
+    height: 70px;
+    width: 25%;
+    align-items: center;
+    /* background-color: pink; */
+}
+
+.header-left img{
+    height: 40px;
+    padding: 20px;
+}
+
+.header-center{
+    height: 70px;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center ul{
+    /* height: fit-content;
+    width: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    background-color: black;
+    color: #fff;
+    border: 2px solid  #00D0E7;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 0 15px #00D0E7;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.center li{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 10px; 
+}
+
+.center ul li:hover{
+
+    border-radius: 50px;
+    background-color: #00D0E7;
+    color: black;
+}
+
+/* .active{
+    background-color: #00D0E7;
+    color: black;
+   
+}  */
+
+.header-right{
+    height: 70px;
+    width: 25%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    border: none;
+    gap: 10px; 
+}
+
+.menu{
+    color: #00D0E7;
+    font-size: 22px;
+}
+
+.English{
+    border: none;
+    color: #00D0E7;
+    font-size: 18px;
+    font-family: 600;
+    background-color: black;
+}
+.menu0{
+    display: none;
+}
+ @media (max-width: 900px) {
+    .header{
+        display: flex;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        /* background-color: gray; */
+    }
+    .header-center{
+        display: none;
+ }
+ .header-left img{
+    height: 30px;
+    width: auto;
+}
+.header-right{
+    display: none;
+}
+.menu0{
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+    padding: 10px
+}
+.popup0{
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin: 0%;
+
+}
+.items0{
+color: black;
+}
+}

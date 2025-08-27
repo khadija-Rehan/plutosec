@@ -1,0 +1,14 @@
+:root{
+    --color: #00D0E7;
+    --color2: #fff;
+    --background-color: #00D0E7;
+    --font-size: 35px;
+    --font-size2:20px;
+     --font-size3: 25px;
+     --font-size4: 15px;
+    --font-weight: 600;
+
+}
+.content-area{
+    margin-top: 70px;
+}

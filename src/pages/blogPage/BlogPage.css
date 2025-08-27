@@ -1,0 +1,91 @@
+.blogAll{
+     width: 90%;
+     margin: 0px 5%;
+     
+}
+/* .blog-page{
+    background-color: aliceblue;
+} */
+.blogpic{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+    margin-top: 90px;
+    background-image: url(../../asserts/contactbg.svg);
+    border: 2px solid  #00D0E7 ;
+    border-radius: 8px;
+}
+.blogpic  p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #00D0E7;
+    font-size: 40px;
+    font-weight: 700;
+}
+.blogpic img{
+  width: 100%;
+  object-fit: cover;
+ height: 250px;
+}
+.overlay{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+.overlay a{
+  color: #00D0E7;
+} 
+.overlay a:hover{
+  color: #0fd9f0;
+}       
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 42px;
+    color:  #00D0E7;
+}
+.description{
+    color:  #00D0E7;
+    
+}
+
+.description p{
+    color: #fff;
+}
+
+.description a{
+    color: #00D0E7;
+}
+.description img{
+  display: flex;
+  justify-self: center;
+  height: auto;
+  width: 55%;
+  
+}
+.dateSection{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    gap: 20px;
+}
+
+.dateSection img{
+   
+    height: auto;
+    width: 60%;
+    border-radius: 8px;
+}
+.follow1{
+    width: 20%;
+}
+

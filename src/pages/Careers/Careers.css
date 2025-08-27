@@ -1,0 +1,164 @@
+.join{
+    display: flex;
+    justify-content: center;
+    color: #00D0E7;
+    font-size: 44px;
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+
+.paraJ{
+    width: 90%;
+    margin: 10px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  
+}
+
+.form{
+    display: flex;
+     height: 850px;
+    width: 90%;
+    margin: 50px 5%;
+    
+    /* background-color: pink; */
+   
+}
+
+.formL{
+    width: 50%;
+    /* background-color: aquamarine; */
+}
+
+.apply{
+    color: #00D0E7;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0%;
+    padding: 0%;
+}
+.Ready{
+    color: #fff;
+    font-size: 20px;
+}
+.Fill{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 20px;
+   border-bottom: 4px solid #00D0E7;
+    width: 95%;
+}
+
+.Resume{
+    color: #fff;
+    font-size: 20px;
+      margin-top: 10px;
+}
+.inputC0{
+     background-color: transparent;
+     border: none;
+     margin-top: 20px;
+     margin-left: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    width: 92%;    
+}
+
+.borderD{
+    padding: 50px 60px;
+    border-radius: 8px;
+    border: dotted;
+    width: 70%;
+    color: #fff;
+     cursor: pointer;
+     margin-top: 20px;
+     margin-left: 20px;
+}
+.borderD:hover{
+    color: #00D0E7;
+}
+.borderD p{
+    display: flex;
+    justify-content: center;
+    color: #00D0E7;
+    margin: 0%;
+    padding: 0%;
+    font-size: 18px;
+}
+.borderD p:last-child{
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #00D0E7;
+    color: black;
+    margin-left: 50px;
+    margin-top: 10px;
+  
+}
+
+
+.send:hover{
+    background-color: black;
+    color: #00D0E7;
+    border: 2px solid #00D0E7;
+}
+
+.formR{
+    height: 800px;
+    width: 50%;
+    background-image: url(../../asserts/Career.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+     background-color: #20464b;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #20464b;
+}
+
+@media(max-width: 970px){
+     .join{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 34px;
+    }
+
+.form{
+    display: flex;
+    flex-direction: column-reverse;
+    height: fit-content;
+   
+}
+.formL{
+    width: 100%;
+}
+.formR{
+    width: 100%;
+   height: 300px;
+}
+.borderD{
+    padding: 50px 60px;
+    border-radius: 8px;
+    border: dotted;
+    width: calc(100% - 120px);
+    margin: 0;
+    margin-top: 20px;
+    color: #fff;
+    cursor: pointer;
+ 
+}
+}

@@ -1,0 +1,137 @@
+.value{
+    gap: 10px;
+    width: 90%;
+    margin: 0px 5%;
+    color: #00D0E7;
+    font-size: 34px;
+}
+.paraVal{
+    display: flex;
+   align-items: center;
+   text-align: center;
+   gap: 5px;
+   font-size: 34px;
+   font-weight: 700;
+   margin-bottom: 23px;
+  
+}
+.paraVal img{
+   align-items: center;
+   text-align: center;
+  
+}
+.paraV{
+    width: 50%;
+    color: #fff;
+    font-size: 20px;
+   
+}
+
+.flip-cards-area{
+    display: flex;
+    height: 200px;
+    /* background-color: yellow; */
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+     width: 90%;
+    margin: 0px 5%;
+}
+
+.flip-card {
+  width: 25%;
+  height: 150px;
+  perspective: 1000px;
+
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  margin: 0%;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+    width: 90%;
+    margin: 0px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    box-shadow: 0px 0px 15px #00D0E7;
+    /* background-color: black; */
+    color: #fff;
+    border-radius: 8px;
+    
+}
+
+.flip-card-back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00D0E7;
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #00D0E7;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+  
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+    color: black;
+    width: 80%;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 40px;
+    margin: 0%;
+    padding: 0%;
+}
+
+@media(max-width: 970px){
+.paraV{
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.flip-cards-area{
+  
+  flex-direction: column;
+  height: fit-content;
+}
+.flip-card {
+ width: 90%;
+  margin: 0px 5%;
+  height: 200px;
+}
+.flip-card-inner {
+margin-top: 20px;
+}
+}

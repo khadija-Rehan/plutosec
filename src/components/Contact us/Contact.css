@@ -1,0 +1,207 @@
+.area-14{
+    height: 100px;
+    width: 100%;
+    /* background-color: pink; */
+
+}
+.area-15{
+    height: 750px;
+    width: calc(100%-40px);
+    /* background-color: rgb(46, 44, 44); */
+    background-color: #071618f8;
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+.area-15 iframe{
+    height: 720px;
+    width: 100%;
+    border-radius: 8px;
+}
+.area15-left{
+    height: 500px;
+    width: 50%;
+    /* background-color: yellow; */
+}
+
+.area15-right{
+    height: 500px;
+    width: 50%;
+    /* background-color:pink; */
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+.area15-right .p1{
+    color: #00D0E7;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0%;
+    /* background-color: gray; */
+
+}
+
+.area15-right .names1  input{
+    
+    padding: 15px;
+    width: 40%;
+    border-radius: 8px;
+    border: 2px solid #00D0E7;
+    background-color: transparent;
+    margin-left: 20px;
+    /* background-color: gray; */
+}
+.names{
+    width: 100%;
+    margin-bottom: 20px;
+  
+}
+.select-sub{
+      width: 100%;
+      
+    /* background-color: gray; */
+  
+}
+
+.select-sub .selectP{
+    color: #fff;
+    font-size: 20px;
+   padding: 20px;
+    margin: 0%;
+    /* background-color: gray; */
+}
+
+.sub0{
+  width: 100%;
+}
+
+.column0{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* background-color: gray; */
+}
+
+.column0 .label0{
+    min-width: 50%;
+    display: flex;
+    font-size: 16px;
+     color: #00d0e7;
+}
+
+.text0 textarea{
+    height: 100px;
+    width: 90%;
+    border-radius: 8px;
+    border: 2px solid #00D0E7;
+    background-color: transparent;
+    margin-left: 10px;
+   
+}
+
+.button3{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 45px;
+    width: 80%;
+    background-color: #00D0E7;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+
+.button3 p{
+   
+    font-size: 20px;
+
+}
+
+@media(max-width: 970px){
+    .area-14{
+    height: 100px;
+    width: 100%;
+    /* background-color: pink; */
+    margin: 0%;
+    padding: 0%;
+    }
+    .area-15{
+    height: 170vh;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;    
+    /* background-color: yellow; */
+}
+
+.area15-left iframe{
+    height: 180px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.area15-left{
+    height: fit-content;
+    width: 100%; 
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.area15-right{ 
+    height: fit-content; 
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.area15-right  input{
+    gap: 10px;
+}
+.column0{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: calc(100% - 10px);
+    margin: 0%;
+    padding: 5px;
+
+}
+.text0 textarea{
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+.button3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+   
+}
+.area15-right .names1  input{
+    margin-top: 20px;
+
+}
+.area15-right .names  {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+}

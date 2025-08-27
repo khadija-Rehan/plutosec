@@ -1,0 +1,166 @@
+.WhyUs{
+    height: 250px;
+    width: 90%;
+    margin: 0px 5%;
+    margin-top: 90px;
+    border: 1px solid  #00D0E7;
+    border-radius: 8px;
+    background-color: yellow;
+    background-image: url(../../asserts/contactbg.svg);
+   
+}
+.WhyUs .overlay0 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #00D0E7;
+    font-size: 44px;
+    font-weight: 700;
+     margin: 0%;
+    padding: 0%;
+}
+.overlay0{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(0, 0, 0, 0.603);
+    border-radius: 8px;
+}
+.Whead p{
+    font-size: 44px;
+    font-weight: 600;
+    color: #00D0E7;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    margin: 0%;
+    padding: 0%;
+    margin-top: 20px;
+    
+}
+.Whead p:last-child{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;  
+      width: 90%;
+    margin: 0px 5%;
+    margin-top: 20px;
+}
+.frontWhy{
+    display: flex;
+    height: fit-content;
+    width: 90%;
+    margin: 0px 5%;
+    margin-top: 40px;
+     
+    /* background-color: yellow; */
+}
+.leftsec{
+    height: fit-content;
+    width: 50%;
+}
+.leftsec .head{
+    display: flex;
+    align-items: center;    
+    gap: 5px;
+    color: #00D0E7;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0%;
+    padding: 0%;
+}
+.leftsec .para{
+    color: #fff;
+    font-size: 17px;
+    width: 98%;
+}
+
+.rightsec{
+    gap: 10px;
+    display: flex;
+    height: 300px;
+    width: 50%;
+    /* background-color: #00D0E7; */
+}
+.rightL{
+    width: 60%;
+    /* background-color: pink; */
+    
+}
+.rightTop{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+}
+.rightTopL{
+    height: 150px;
+    width: 50%;
+   background-image: url(../../asserts/image2.jpg);
+   border-radius: 8px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.rightTopR{
+    height: 150px;
+    width: 50%;
+    background-image: url(../../asserts/image3.jpg);
+   border-radius: 8px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.rightBottom {
+    margin-top: 5px;
+    display: flex;
+     height: 150px;
+    width: 100%;
+     background-image: url(../../asserts/image4.jpg);
+   border-radius: 8px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.rightR{
+    width: 40%;
+    background-image: url(../../asserts/image5.jpg);
+    border-radius: 8px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+
+@media(max-width: 970px){
+.frontWhy{
+      display: flex;
+    flex-direction: column;
+
+}
+
+.leftsec{
+    width: 100%;
+}
+.rightTop{
+    width: 100%;
+}
+.rightsec{
+  
+     width: 100%;
+
+}
+.rightR{
+    display: none;
+}
+.rightL{
+width: 100%;
+}
+}
